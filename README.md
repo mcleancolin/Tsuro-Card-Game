@@ -3,6 +3,7 @@
 Authors of code: Colin McLean, Jack Wilkin, Anubhav Sharma, and Coleen Ross
 
 The following gives an explanation on the different data structures, rules, and interfaces used throughout the project.
+For further explanations on the code, refer to the markdown files in the planning/ folder. 
 
 ## turn_spec_json
 turn_spec_json is the tile index, rotation, board_coordinate, and starting_port of a turn that can be executed by the game_state
