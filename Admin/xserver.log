@@ -1,0 +1,1166 @@
+2019-11-26 14:48:16,739 - server - INFO - Starting server on localhost:8000
+2019-11-26 14:48:16,743 - server - INFO - Waiting for a connection...
+2019-11-26 14:48:19,711 - server - INFO - Added Col to the game.
+2019-11-26 14:48:20,714 - server - INFO - The players in the game are ['Col']
+2019-11-26 14:48:20,714 - server - INFO - Waiting for a connection...
+2019-11-26 14:48:40,362 - server - INFO - Added min to the game.
+2019-11-26 14:48:41,365 - server - INFO - The players in the game are ['Col', 'min']
+2019-11-26 14:48:41,365 - server - INFO - Waiting for a connection...
+2019-11-26 14:48:44,358 - server - INFO - Added Ronnie to the game.
+2019-11-26 14:48:45,363 - server - INFO - The players in the game are ['Col', 'min', 'Ronnie']
+2019-11-26 14:48:45,363 - server - INFO - Waiting for a connection...
+2019-11-26 14:48:45,786 - server - INFO - Added Jack to the game.
+2019-11-26 14:48:46,790 - server - INFO - The players in the game are ['Col', 'min', 'Ronnie', 'Jack']
+2019-11-26 14:48:46,790 - server - INFO - Waiting for a connection...
+2019-11-26 14:48:49,794 - server - INFO - The players in the game are ['Col', 'min', 'Ronnie', 'Jack']
+2019-11-26 14:48:50,796 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-11-26 14:48:50,797 - server - INFO - white >> turn: {'name': 'Col', 'strategy': 'dumb'}
+2019-11-26 14:48:50,797 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-11-26 14:48:50,798 - server - INFO - white << turn request was legal
+2019-11-26 14:48:51,800 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-11-26 14:48:51,800 - server - INFO - black >> turn: {'name': 'min', 'strategy': 'dumb'}
+2019-11-26 14:48:51,802 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-11-26 14:48:51,802 - server - INFO - black << turn request was legal
+2019-11-26 14:48:52,803 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-11-26 14:48:52,804 - server - INFO - red >> turn: {'name': 'Ronnie', 'strategy': 'dumb'}
+2019-11-26 14:48:52,806 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-11-26 14:48:52,806 - server - INFO - red << turn request was legal
+2019-11-26 14:48:53,812 - server - INFO - green << dealt tiles: [9, 10, 11]
+2019-11-26 14:48:53,813 - server - INFO - green >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-11-26 14:48:53,817 - server - INFO - green << turn response: {'legal': True, 'rules broken': None}
+2019-11-26 14:48:53,817 - server - INFO - green << turn request was legal
+2019-11-26 14:48:53,817 - server - INFO - Initial moves have finished.
+2019-11-26 14:48:54,821 - server - INFO - green << Your tiles are: [12, 13]
+2019-11-26 14:48:54,821 - server - INFO - green >> Turn: [12, 0, 'h1']
+2019-11-26 14:48:54,822 - server - INFO - green << turn request was legal
+2019-11-26 14:48:55,828 - server - INFO - red << Your tiles are: [14, 15]
+2019-11-26 14:48:55,828 - server - INFO - red >> Turn: [14, 0, 'f1']
+2019-11-26 14:48:55,829 - server - INFO - red << you're kicked out
+2019-11-26 14:48:55,829 - server - INFO - red << ['tile placement is avoidable suicide']
+2019-11-26 14:48:56,834 - server - INFO - white << Your tiles are: [16, 17]
+2019-11-26 14:48:56,835 - server - INFO - white >> Turn: [16, 0, 'a2']
+2019-11-26 14:48:56,836 - server - INFO - white << turn request was legal
+2019-11-26 14:48:57,839 - server - INFO - black << Your tiles are: [18, 19]
+2019-11-26 14:48:57,839 - server - INFO - black >> Turn: [18, 0, 'c2']
+2019-11-26 14:48:57,840 - server - INFO - black << turn request was legal
+2019-11-26 14:48:58,844 - server - INFO - green << Your tiles are: [20, 21]
+2019-11-26 14:48:58,844 - server - INFO - green >> Turn: [20, 0, 'h2']
+2019-11-26 14:48:58,846 - server - INFO - green << turn request was legal
+2019-11-26 14:48:59,847 - server - INFO - white << Your tiles are: [22, 23]
+2019-11-26 14:48:59,848 - server - INFO - white >> Turn: [22, 0, 'b2']
+2019-11-26 14:48:59,849 - server - INFO - white << turn request was legal
+2019-11-26 14:49:00,853 - server - INFO - black << Your tiles are: [24, 25]
+2019-11-26 14:49:00,853 - server - INFO - black >> Turn: [24, 0, 'c3']
+2019-11-26 14:49:00,854 - server - INFO - black << you're kicked out
+2019-11-26 14:49:00,854 - server - INFO - black << ['tile placement is avoidable suicide']
+2019-11-26 14:49:01,857 - server - INFO - green << Your tiles are: [26, 27]
+2019-11-26 14:49:01,858 - server - INFO - green >> Turn: [26, 0, 'i2']
+2019-11-26 14:49:01,859 - server - INFO - green << turn request was legal
+2019-11-26 14:49:02,863 - server - INFO - white << Your tiles are: [28, 29]
+2019-11-26 14:49:02,863 - server - INFO - white >> Turn: [28, 0, 'd2']
+2019-11-26 14:49:02,865 - server - INFO - white << turn request was legal
+2019-11-26 14:49:03,870 - server - INFO - green << Your tiles are: [30, 31]
+2019-11-26 14:49:03,871 - server - INFO - green >> Turn: [30, 0, 'j2']
+2019-11-26 14:49:03,871 - server - INFO - green << you're kicked out
+2019-11-26 14:49:03,872 - server - INFO - green << ['tile placement is avoidable suicide']
+2019-11-29 15:59:37,176 - server - INFO - Added Sheila to the game.
+2019-11-29 15:59:57,131 - server - INFO - Added Colin to the game.
+2019-11-29 16:01:43,194 - server - INFO - Added Katie to the game.
+2019-11-29 16:01:47,201 - server - INFO - The players in the game are ['Sheila', 'Colin', 'Katie']
+2019-11-29 16:01:48,203 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-11-29 16:01:48,203 - server - INFO - white >> turn: {'name': 'Sheila', 'strategy': 'dumb'}
+2019-11-29 16:01:48,204 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:01:48,204 - server - INFO - white << Turn request was legal
+2019-11-29 16:01:49,209 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-11-29 16:01:49,210 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-11-29 16:01:49,211 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:01:49,212 - server - INFO - black << Turn request was legal
+2019-11-29 16:01:50,214 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-11-29 16:01:50,214 - server - INFO - red >> turn: {'name': 'Katie', 'strategy': 'dumb'}
+2019-11-29 16:01:50,218 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:01:50,218 - server - INFO - red << Turn request was legal
+2019-11-29 16:01:50,219 - server - INFO - Initial moves have finished.
+2019-11-29 16:01:51,221 - server - INFO - black << Your tiles are: [9, 10]
+2019-11-29 16:01:51,221 - server - INFO - black >> Turn: [9, 0, 'c2']
+2019-11-29 16:01:51,222 - server - INFO - black << Turn request was legal
+2019-11-29 16:01:52,226 - server - INFO - white << Your tiles are: [11, 12]
+2019-11-29 16:01:52,226 - server - INFO - white >> Turn: [11, 0, 'a2']
+2019-11-29 16:01:52,228 - server - INFO - white << Turn request was legal
+2019-11-29 16:01:53,231 - server - INFO - red << Your tiles are: [13, 14]
+2019-11-29 16:01:53,232 - server - INFO - red >> Turn: [13, 0, 'f1']
+2019-11-29 16:01:53,233 - server - INFO - red << Turn request was legal
+2019-11-29 16:01:54,235 - server - INFO - black << Your tiles are: [15, 16]
+2019-11-29 16:01:54,235 - server - INFO - black >> Turn: [15, 0, 'c3']
+2019-11-29 16:01:54,237 - server - INFO - black << Turn request was legal
+2019-11-29 16:01:55,243 - server - INFO - white << Your tiles are: [17, 18]
+2019-11-29 16:01:55,243 - server - INFO - white >> Turn: [17, 0, 'b2']
+2019-11-29 16:01:55,244 - server - INFO - white << Turn request was legal
+2019-11-29 16:01:56,247 - server - INFO - red << Your tiles are: [19, 20]
+2019-11-29 16:01:56,248 - server - INFO - red >> Turn: [19, 0, 'f2']
+2019-11-29 16:01:56,249 - server - INFO - red << Turn request was legal
+2019-11-29 16:01:57,253 - server - INFO - black << Your tiles are: [21, 22]
+2019-11-29 16:01:57,254 - server - INFO - black >> Turn: [21, 0, 'b3']
+2019-11-29 16:01:57,255 - server - INFO - black << You're kicked out from performing an illegal move
+2019-11-29 16:01:57,255 - server - INFO - black << ['tile placement is avoidable suicide']
+2019-11-29 16:01:59,264 - server - INFO - white << Your tiles are: [23, 24]
+2019-11-29 16:01:59,265 - server - INFO - white >> Turn: [23, 0, 'd3']
+2019-11-29 16:01:59,266 - server - INFO - white << Turn request was legal
+2019-11-29 16:02:00,269 - server - INFO - red << Your tiles are: [25, 26]
+2019-11-29 16:02:00,270 - server - INFO - red >> Turn: [25, 0, 'g2']
+2019-11-29 16:02:00,271 - server - INFO - red << Turn request was legal
+2019-11-29 16:02:01,276 - server - INFO - white << Your tiles are: [27, 28]
+2019-11-29 16:02:01,276 - server - INFO - white >> Turn: [27, 0, 'e3']
+2019-11-29 16:02:01,278 - server - INFO - white << Turn request was legal
+2019-11-29 16:02:02,280 - server - INFO - red << Your tiles are: [29, 30]
+2019-11-29 16:02:02,281 - server - INFO - red >> Turn: [29, 0, 'h2']
+2019-11-29 16:02:02,282 - server - INFO - red << Turn request was legal
+2019-11-29 16:02:03,286 - server - INFO - white << Your tiles are: [31, 32]
+2019-11-29 16:02:03,287 - server - INFO - white >> Turn: [31, 0, 'e4']
+2019-11-29 16:02:03,288 - server - INFO - white << Turn request was legal
+2019-11-29 16:02:04,292 - server - INFO - red << Your tiles are: [33, 34]
+2019-11-29 16:02:04,293 - server - INFO - red >> Turn: [33, 0, 'i2']
+2019-11-29 16:02:04,294 - server - INFO - red << Turn request was legal
+2019-11-29 16:02:05,297 - server - INFO - white << Your tiles are: [0, 1]
+2019-11-29 16:02:05,297 - server - INFO - white >> Turn: [0, 0, 'f3']
+2019-11-29 16:02:05,298 - server - INFO - white << Turn request was legal
+2019-11-29 16:02:06,301 - server - INFO - red << Your tiles are: [2, 3]
+2019-11-29 16:02:06,302 - server - INFO - red >> Turn: [2, 0, 'i3']
+2019-11-29 16:02:06,303 - server - INFO - red << Turn request was legal
+2019-11-29 16:02:07,307 - server - INFO - white << Your tiles are: [4, 5]
+2019-11-29 16:02:07,308 - server - INFO - white >> Turn: [4, 0, 'g3']
+2019-11-29 16:02:07,309 - server - INFO - white << Turn request was legal
+2019-11-29 16:02:08,315 - server - INFO - red << Your tiles are: [6, 7]
+2019-11-29 16:02:08,316 - server - INFO - red >> Turn: [6, 0, 'i4']
+2019-11-29 16:02:08,317 - server - INFO - red << Turn request was legal
+2019-11-29 16:02:09,323 - server - INFO - white << Your tiles are: [8, 9]
+2019-11-29 16:02:09,323 - server - INFO - white >> Turn: [8, 0, 'g4']
+2019-11-29 16:02:09,324 - server - INFO - white << Turn request was legal
+2019-11-29 16:02:10,326 - server - INFO - red << Your tiles are: [10, 11]
+2019-11-29 16:02:10,326 - server - INFO - red >> Turn: [10, 0, 'j4']
+2019-11-29 16:02:10,328 - server - INFO - red << Turn request was legal
+2019-11-29 16:02:11,333 - server - INFO - white << Your tiles are: [12, 13]
+2019-11-29 16:02:11,334 - server - INFO - white >> Turn: [12, 0, 'h4']
+2019-11-29 16:02:11,335 - server - INFO - white << Turn request was legal
+2019-11-29 16:02:12,336 - server - INFO - red << Your tiles are: [14, 15]
+2019-11-29 16:02:12,337 - server - INFO - red >> Turn: [14, 0, 'j5']
+2019-11-29 16:02:12,337 - server - INFO - red << You're kicked out from performing an illegal move
+2019-11-29 16:02:12,338 - server - INFO - red << ['tile placement is avoidable suicide']
+2019-11-29 16:02:13,343 - server - INFO - The game has now finished.
+2019-11-29 16:03:22,083 - server - INFO - Added Sheila to the game.
+2019-11-29 16:03:26,504 - server - INFO - Added Colin to the game.
+2019-11-29 16:03:28,572 - server - INFO - Added Katie to the game.
+2019-11-29 16:03:32,574 - server - INFO - The players in the game are ['Sheila', 'Colin', 'Katie']
+2019-11-29 16:03:33,575 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-11-29 16:03:33,576 - server - INFO - white >> turn: {'name': 'Sheila', 'strategy': 'dumb'}
+2019-11-29 16:03:33,577 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:03:33,577 - server - INFO - white << Turn request was legal
+2019-11-29 16:03:34,578 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-11-29 16:03:34,579 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-11-29 16:03:34,580 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:03:34,580 - server - INFO - black << Turn request was legal
+2019-11-29 16:03:35,582 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-11-29 16:03:35,582 - server - INFO - red >> turn: {'name': 'Katie', 'strategy': 'dumb'}
+2019-11-29 16:03:35,585 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:03:35,585 - server - INFO - red << Turn request was legal
+2019-11-29 16:03:35,586 - server - INFO - Initial moves have finished.
+2019-11-29 16:03:36,591 - server - INFO - red << Your tiles are: [9, 10]
+2019-11-29 16:03:36,591 - server - INFO - red >> Turn: [9, 0, 'f1']
+2019-11-29 16:03:36,592 - server - INFO - red << Turn request was legal
+2019-11-29 16:03:37,598 - server - INFO - black << Your tiles are: [11, 12]
+2019-11-29 16:03:37,599 - server - INFO - black >> Turn: [11, 0, 'c2']
+2019-11-29 16:03:37,600 - server - INFO - black << Turn request was legal
+2019-11-29 16:03:38,601 - server - INFO - white << Your tiles are: [13, 14]
+2019-11-29 16:03:38,601 - server - INFO - white >> Turn: [13, 0, 'a2']
+2019-11-29 16:03:38,602 - server - INFO - white << Turn request was legal
+2019-11-29 16:03:39,605 - server - INFO - red << Your tiles are: [15, 16]
+2019-11-29 16:03:39,605 - server - INFO - red >> Turn: [15, 0, 'f2']
+2019-11-29 16:03:39,606 - server - INFO - red << Turn request was legal
+2019-11-29 16:03:40,607 - server - INFO - black << Your tiles are: [17, 18]
+2019-11-29 16:03:40,607 - server - INFO - black >> Turn: [17, 0, 'd2']
+2019-11-29 16:03:40,608 - server - INFO - black << Turn request was legal
+2019-11-29 16:03:41,611 - server - INFO - white << Your tiles are: [19, 20]
+2019-11-29 16:03:41,612 - server - INFO - white >> Turn: [19, 0, 'b2']
+2019-11-29 16:03:41,613 - server - INFO - white << Turn request was legal
+2019-11-29 16:03:42,615 - server - INFO - red << Your tiles are: [21, 22]
+2019-11-29 16:03:42,615 - server - INFO - red >> Turn: [21, 0, 'g2']
+2019-11-29 16:03:42,616 - server - INFO - red << Turn request was legal
+2019-11-29 16:03:43,620 - server - INFO - black << Your tiles are: [23, 24]
+2019-11-29 16:03:43,621 - server - INFO - black >> Turn: [23, 0, 'd3']
+2019-11-29 16:03:43,622 - server - INFO - black << Turn request was legal
+2019-11-29 16:03:44,626 - server - INFO - white << Your tiles are: [25, 26]
+2019-11-29 16:03:44,626 - server - INFO - white >> Turn: [25, 0, 'b3']
+2019-11-29 16:03:44,627 - server - INFO - white << Turn request was legal
+2019-11-29 16:03:45,632 - server - INFO - red << Your tiles are: [27, 28]
+2019-11-29 16:03:45,632 - server - INFO - red >> Turn: [27, 0, 'g3']
+2019-11-29 16:03:45,634 - server - INFO - red << Turn request was legal
+2019-11-29 16:03:46,640 - server - INFO - black << Your tiles are: [29, 30]
+2019-11-29 16:03:46,641 - server - INFO - black >> Turn: [29, 0, 'd1']
+2019-11-29 16:03:46,642 - server - INFO - black << You're kicked out from performing an illegal move
+2019-11-29 16:03:46,642 - server - INFO - black << ['tile placement is avoidable suicide']
+2019-11-29 16:03:48,649 - server - INFO - white << Your tiles are: [31, 32]
+2019-11-29 16:03:48,650 - server - INFO - white >> Turn: [31, 0, 'b1']
+2019-11-29 16:03:48,652 - server - INFO - white << Turn request was legal
+2019-11-29 16:03:49,657 - server - INFO - red << Your tiles are: [33, 34]
+2019-11-29 16:03:49,657 - server - INFO - red >> Turn: [33, 0, 'f3']
+2019-11-29 16:03:49,658 - server - INFO - red << Turn request was legal
+2019-11-29 16:03:50,662 - server - INFO - white << Your tiles are: [0, 1]
+2019-11-29 16:03:50,662 - server - INFO - white >> Turn: [0, 0, 'd1']
+2019-11-29 16:03:50,663 - server - INFO - white << Turn request was legal
+2019-11-29 16:03:51,666 - server - INFO - red << Your tiles are: [2, 3]
+2019-11-29 16:03:51,666 - server - INFO - red >> Turn: [2, 0, 'e2']
+2019-11-29 16:03:51,668 - server - INFO - red << Turn request was legal
+2019-11-29 16:03:52,671 - server - INFO - white << Your tiles are: [4, 5]
+2019-11-29 16:03:52,672 - server - INFO - white >> Turn: [4, 0, 'g1']
+2019-11-29 16:03:52,673 - server - INFO - white << You're kicked out from performing an illegal move
+2019-11-29 16:03:52,673 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-11-29 16:03:53,675 - server - INFO - The game has now finished.
+2019-11-29 16:04:22,181 - server - INFO - Added Sheila to the game.
+2019-11-29 16:04:24,489 - server - INFO - Added Colin to the game.
+2019-11-29 16:04:26,204 - server - INFO - Added Katie to the game.
+2019-11-29 16:04:30,211 - server - INFO - The players in the game are ['Sheila', 'Colin', 'Katie']
+2019-11-29 16:04:31,217 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-11-29 16:04:31,217 - server - INFO - white >> turn: {'name': 'Sheila', 'strategy': 'second'}
+2019-11-29 16:04:31,218 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:04:31,219 - server - INFO - white << Turn request was legal
+2019-11-29 16:04:32,221 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-11-29 16:04:32,222 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-11-29 16:04:32,223 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:04:32,223 - server - INFO - black << Turn request was legal
+2019-11-29 16:04:33,227 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-11-29 16:04:33,227 - server - INFO - red >> turn: {'name': 'Katie', 'strategy': 'dumb'}
+2019-11-29 16:04:33,230 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-11-29 16:04:33,230 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:33,230 - server - INFO - Initial moves have finished.
+2019-11-29 16:04:34,237 - server - INFO - white << Your tiles are: [9, 10]
+2019-11-29 16:04:34,237 - server - INFO - white >> Turn: [10, 0, 'a2']
+2019-11-29 16:04:34,238 - server - INFO - white << Turn request was legal
+2019-11-29 16:04:35,242 - server - INFO - red << Your tiles are: [11, 12]
+2019-11-29 16:04:35,243 - server - INFO - red >> Turn: [11, 0, 'f1']
+2019-11-29 16:04:35,245 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:36,249 - server - INFO - black << Your tiles are: [13, 14]
+2019-11-29 16:04:36,249 - server - INFO - black >> Turn: [13, 0, 'c2']
+2019-11-29 16:04:36,251 - server - INFO - black << Turn request was legal
+2019-11-29 16:04:37,253 - server - INFO - white << Your tiles are: [15, 16]
+2019-11-29 16:04:37,253 - server - INFO - white >> Turn: [16, 0, 'b2']
+2019-11-29 16:04:37,255 - server - INFO - white << Turn request was legal
+2019-11-29 16:04:38,259 - server - INFO - red << Your tiles are: [17, 18]
+2019-11-29 16:04:38,259 - server - INFO - red >> Turn: [17, 0, 'f2']
+2019-11-29 16:04:38,260 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:39,267 - server - INFO - black << Your tiles are: [19, 20]
+2019-11-29 16:04:39,267 - server - INFO - black >> Turn: [19, 0, 'b1']
+2019-11-29 16:04:39,268 - server - INFO - black << You're kicked out from performing an illegal move
+2019-11-29 16:04:39,268 - server - INFO - black << ['tile placement is avoidable suicide']
+2019-11-29 16:04:41,278 - server - INFO - white << Your tiles are: [21, 22]
+2019-11-29 16:04:41,278 - server - INFO - white >> Turn: [22, 0, 'b3']
+2019-11-29 16:04:41,279 - server - INFO - white << Turn request was legal
+2019-11-29 16:04:42,283 - server - INFO - red << Your tiles are: [23, 24]
+2019-11-29 16:04:42,283 - server - INFO - red >> Turn: [23, 0, 'g2']
+2019-11-29 16:04:42,284 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:43,290 - server - INFO - white << Your tiles are: [25, 26]
+2019-11-29 16:04:43,290 - server - INFO - white >> Turn: [26, 0, 'b1']
+2019-11-29 16:04:43,292 - server - INFO - white << Turn request was legal
+2019-11-29 16:04:44,298 - server - INFO - red << Your tiles are: [27, 28]
+2019-11-29 16:04:44,298 - server - INFO - red >> Turn: [27, 0, 'h2']
+2019-11-29 16:04:44,300 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:45,301 - server - INFO - red << Your tiles are: [29, 30]
+2019-11-29 16:04:45,302 - server - INFO - red >> Turn: [29, 0, 'h3']
+2019-11-29 16:04:45,303 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:46,305 - server - INFO - red << Your tiles are: [31, 32]
+2019-11-29 16:04:46,306 - server - INFO - red >> Turn: [31, 0, 'i2']
+2019-11-29 16:04:46,307 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:47,312 - server - INFO - red << Your tiles are: [33, 34]
+2019-11-29 16:04:47,313 - server - INFO - red >> Turn: [33, 0, 'j2']
+2019-11-29 16:04:47,314 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:48,320 - server - INFO - red << Your tiles are: [0, 1]
+2019-11-29 16:04:48,320 - server - INFO - red >> Turn: [0, 0, 'j3']
+2019-11-29 16:04:48,321 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:49,326 - server - INFO - red << Your tiles are: [2, 3]
+2019-11-29 16:04:49,326 - server - INFO - red >> Turn: [2, 0, 'j4']
+2019-11-29 16:04:49,328 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:50,334 - server - INFO - red << Your tiles are: [4, 5]
+2019-11-29 16:04:50,334 - server - INFO - red >> Turn: [4, 0, 'j5']
+2019-11-29 16:04:50,335 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:51,340 - server - INFO - red << Your tiles are: [6, 7]
+2019-11-29 16:04:51,341 - server - INFO - red >> Turn: [6, 0, 'i5']
+2019-11-29 16:04:51,342 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:52,344 - server - INFO - red << Your tiles are: [8, 9]
+2019-11-29 16:04:52,344 - server - INFO - red >> Turn: [8, 0, 'i4']
+2019-11-29 16:04:52,346 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:53,350 - server - INFO - red << Your tiles are: [10, 11]
+2019-11-29 16:04:53,351 - server - INFO - red >> Turn: [10, 0, 'h4']
+2019-11-29 16:04:53,352 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:54,354 - server - INFO - red << Your tiles are: [12, 13]
+2019-11-29 16:04:54,354 - server - INFO - red >> Turn: [12, 0, 'g4']
+2019-11-29 16:04:54,355 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:55,358 - server - INFO - red << Your tiles are: [14, 15]
+2019-11-29 16:04:55,359 - server - INFO - red >> Turn: [14, 0, 'g5']
+2019-11-29 16:04:55,360 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:56,361 - server - INFO - red << Your tiles are: [16, 17]
+2019-11-29 16:04:56,362 - server - INFO - red >> Turn: [16, 0, 'h5']
+2019-11-29 16:04:56,363 - server - INFO - red << Turn request was legal
+2019-11-29 16:04:57,368 - server - INFO - red << Your tiles are: [18, 19]
+2019-11-29 16:04:57,368 - server - INFO - red >> Turn: [18, 0, 'j6']
+2019-11-29 16:04:57,369 - server - INFO - red << You're kicked out from performing an illegal move
+2019-11-29 16:04:57,370 - server - INFO - red << ['tile placement is avoidable suicide']
+2019-11-29 16:04:58,376 - server - INFO - The game has now finished.
+2019-12-09 15:48:45,114 - server - INFO - Added colin to the game.
+2019-12-09 15:48:52,349 - server - INFO - Added colin to the game.
+2019-12-09 15:49:16,513 - server - INFO - Added jack to the game.
+2019-12-09 15:49:20,521 - server - INFO - The players in the game are ['colin', 'colin', 'jack']
+2019-12-09 15:49:21,524 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 15:49:21,525 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 15:50:53,731 - server - INFO - Added rumi to the game.
+2019-12-09 15:50:58,202 - server - INFO - Added colin to the game.
+2019-12-09 15:51:02,111 - server - INFO - Added jack to the game.
+2019-12-09 15:51:06,112 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 15:51:07,116 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 15:51:07,116 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 15:53:36,746 - server - INFO - Added rumi to the game.
+2019-12-09 15:53:38,320 - server - INFO - Added colin to the game.
+2019-12-09 15:53:40,206 - server - INFO - Added jack to the game.
+2019-12-09 15:53:44,214 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 15:53:45,215 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 15:53:45,216 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 15:54:54,729 - server - INFO - Added rumi to the game.
+2019-12-09 15:54:58,514 - server - INFO - Added colin to the game.
+2019-12-09 15:55:01,651 - server - INFO - Added jack to the game.
+2019-12-09 15:55:05,656 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 15:55:06,662 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 15:55:06,663 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 15:55:06,663 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 15:55:06,664 - server - INFO - white << Turn request was legal
+2019-12-09 15:55:07,668 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 15:55:07,669 - server - INFO - black >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 15:55:07,670 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 15:55:07,670 - server - INFO - black << Turn request was legal
+2019-12-09 15:55:08,676 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 15:55:08,677 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 15:56:08,999 - server - INFO - Added rumi to the game.
+2019-12-09 15:56:10,769 - server - INFO - Added colin to the game.
+2019-12-09 15:56:12,632 - server - INFO - Added jack to the game.
+2019-12-09 15:56:16,641 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 15:56:17,644 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 15:56:17,644 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 15:56:17,645 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 15:56:17,645 - server - INFO - white << Turn request was legal
+2019-12-09 15:56:18,652 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 15:56:18,652 - server - INFO - black >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 15:56:18,654 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 15:56:18,654 - server - INFO - black << Turn request was legal
+2019-12-09 15:56:19,660 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 15:56:19,660 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:01:38,127 - server - INFO - Added rumi to the game.
+2019-12-09 16:01:40,931 - server - INFO - Added colin to the game.
+2019-12-09 16:01:43,313 - server - INFO - Added jack to the game.
+2019-12-09 16:01:47,316 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 16:01:48,318 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 16:01:48,318 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 16:01:48,319 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:01:48,319 - server - INFO - white << Turn request was legal
+2019-12-09 16:01:49,323 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 16:01:49,324 - server - INFO - black >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 16:01:49,326 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:01:49,326 - server - INFO - black << Turn request was legal
+2019-12-09 16:01:50,331 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 16:01:50,331 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:03:04,549 - server - INFO - Added rumi to the game.
+2019-12-09 16:03:06,627 - server - INFO - Added colin to the game.
+2019-12-09 16:03:08,198 - server - INFO - Added jack to the game.
+2019-12-09 16:03:12,204 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 16:03:13,207 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 16:03:13,207 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 16:03:13,208 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:03:13,208 - server - INFO - white << Turn request was legal
+2019-12-09 16:03:14,212 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 16:03:14,212 - server - INFO - black >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 16:03:14,214 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:03:14,214 - server - INFO - black << Turn request was legal
+2019-12-09 16:03:15,215 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 16:03:15,215 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:05:34,387 - server - INFO - Added rumi to the game.
+2019-12-09 16:05:43,983 - server - INFO - Added colin to the game.
+2019-12-09 16:05:47,947 - server - INFO - Added jack to the game.
+2019-12-09 16:05:51,951 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 16:05:52,952 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 16:05:52,952 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 16:05:52,953 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:05:52,953 - server - INFO - white << Turn request was legal
+2019-12-09 16:05:53,958 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 16:05:53,958 - server - INFO - black >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 16:05:53,960 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:05:53,961 - server - INFO - black << Turn request was legal
+2019-12-09 16:05:54,965 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 16:05:54,965 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:12:09,226 - server - INFO - Added rumi to the game.
+2019-12-09 16:12:10,913 - server - INFO - Added colin to the game.
+2019-12-09 16:12:12,362 - server - INFO - Added jack to the game.
+2019-12-09 16:12:16,368 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 16:12:17,374 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 16:12:17,374 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 16:12:17,375 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:12:17,376 - server - INFO - white << Turn request was legal
+2019-12-09 16:12:18,381 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 16:12:18,382 - server - INFO - black >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 16:12:18,383 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:12:18,383 - server - INFO - black << Turn request was legal
+2019-12-09 16:12:19,389 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 16:12:19,390 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:12:21,217 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:12:21,217 - server - INFO - red << Turn request was legal
+2019-12-09 16:12:21,218 - server - INFO - Initial moves have finished.
+2019-12-09 16:13:47,686 - server - INFO - Added rumi to the game.
+2019-12-09 16:13:51,668 - server - INFO - Added colin to the game.
+2019-12-09 16:13:54,982 - server - INFO - Added jack to the game.
+2019-12-09 16:13:58,990 - server - INFO - The players in the game are ['rumi', 'colin', 'jack']
+2019-12-09 16:13:59,992 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 16:13:59,993 - server - INFO - white >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 16:13:59,994 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:13:59,994 - server - INFO - white << Turn request was legal
+2019-12-09 16:14:00,996 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 16:14:00,996 - server - INFO - black >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 16:14:00,998 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:14:00,998 - server - INFO - black << Turn request was legal
+2019-12-09 16:14:02,002 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 16:14:02,002 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:14:14,053 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:14:14,053 - server - INFO - red << Turn request was legal
+2019-12-09 16:14:14,053 - server - INFO - Initial moves have finished.
+2019-12-09 16:15:08,320 - server - INFO - Added colin to the game.
+2019-12-09 16:15:11,175 - server - INFO - Added rumi to the game.
+2019-12-09 16:15:14,827 - server - INFO - Added jack to the game.
+2019-12-09 16:15:18,833 - server - INFO - The players in the game are ['colin', 'rumi', 'jack']
+2019-12-09 16:15:19,839 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 16:15:19,840 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 16:15:19,841 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:15:19,842 - server - INFO - white << Turn request was legal
+2019-12-09 16:15:20,847 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 16:15:20,847 - server - INFO - black >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 16:15:20,849 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:15:20,849 - server - INFO - black << Turn request was legal
+2019-12-09 16:15:21,855 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 16:15:21,856 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:15:24,130 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:15:24,131 - server - INFO - red << Turn request was legal
+2019-12-09 16:15:24,131 - server - INFO - Initial moves have finished.
+2019-12-09 16:15:25,136 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-09 16:15:25,137 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-09 16:15:25,139 - server - INFO - white << Turn request was legal
+2019-12-09 16:15:55,050 - server - INFO - red << Your tiles are: [11, 12]
+2019-12-09 16:15:55,050 - server - INFO - red >> Turn: [11, 0, 'f2']
+2019-12-09 16:15:55,051 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-09 16:15:55,051 - server - INFO - red << ['tile placement is not in front of given player']
+2019-12-09 16:15:57,060 - server - INFO - black << Your tiles are: [13, 14]
+2019-12-09 16:15:57,061 - server - INFO - black >> Turn: [13, 0, 'c2']
+2019-12-09 16:15:57,062 - server - INFO - black << Turn request was legal
+2019-12-09 16:15:58,065 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-09 16:15:58,066 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-09 16:15:58,067 - server - INFO - white << Turn request was legal
+2019-12-09 16:15:59,070 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-09 16:15:59,071 - server - INFO - black >> Turn: [17, 0, 'b1']
+2019-12-09 16:15:59,072 - server - INFO - black << You're kicked out from performing an illegal move
+2019-12-09 16:15:59,072 - server - INFO - black << ['tile placement is avoidable suicide']
+2019-12-09 16:16:00,074 - server - INFO - The game has now finished.
+2019-12-09 16:16:45,859 - server - INFO - Added colin to the game.
+2019-12-09 16:16:47,746 - server - INFO - Added rumi to the game.
+2019-12-09 16:16:49,674 - server - INFO - Added jack to the game.
+2019-12-09 16:16:53,679 - server - INFO - The players in the game are ['colin', 'rumi', 'jack']
+2019-12-09 16:16:54,684 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-09 16:16:54,684 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-09 16:16:54,685 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:16:54,685 - server - INFO - white << Turn request was legal
+2019-12-09 16:16:55,690 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-09 16:16:55,691 - server - INFO - black >> turn: {'name': 'rumi', 'strategy': 'dumb'}
+2019-12-09 16:16:55,693 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:16:55,693 - server - INFO - black << Turn request was legal
+2019-12-09 16:16:56,696 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-09 16:16:56,696 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-09 16:17:00,766 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-09 16:17:00,766 - server - INFO - red << Turn request was legal
+2019-12-09 16:17:00,766 - server - INFO - Initial moves have finished.
+2019-12-09 16:17:01,771 - server - INFO - black << Your tiles are: [9, 10]
+2019-12-09 16:17:01,772 - server - INFO - black >> Turn: [9, 0, 'c2']
+2019-12-09 16:17:01,773 - server - INFO - black << Turn request was legal
+2019-12-09 16:17:14,581 - server - INFO - red << Your tiles are: [11, 12]
+2019-12-09 16:17:14,581 - server - INFO - red >> Turn: [11, 0, 'g1']
+2019-12-09 16:17:14,582 - server - INFO - red << Turn request was legal
+2019-12-09 16:17:15,588 - server - INFO - white << Your tiles are: [13, 14]
+2019-12-09 16:17:15,588 - server - INFO - white >> Turn: [13, 0, 'a2']
+2019-12-09 16:17:15,589 - server - INFO - white << Turn request was legal
+2019-12-09 16:17:16,593 - server - INFO - black << Your tiles are: [15, 16]
+2019-12-09 16:17:16,594 - server - INFO - black >> Turn: [15, 0, 'c3']
+2019-12-09 16:17:16,595 - server - INFO - black << Turn request was legal
+2019-12-09 16:17:32,950 - server - INFO - red << Your tiles are: [17, 18]
+2019-12-09 16:17:32,950 - server - INFO - red >> Turn: [17, 180, 'g2']
+2019-12-09 16:17:32,951 - server - INFO - red << Turn request was legal
+2019-12-09 16:17:33,957 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-09 16:17:33,957 - server - INFO - white >> Turn: [19, 0, 'b2']
+2019-12-09 16:17:33,959 - server - INFO - white << Turn request was legal
+2019-12-09 16:17:34,965 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-09 16:17:34,965 - server - INFO - black >> Turn: [21, 0, 'b3']
+2019-12-09 16:17:34,966 - server - INFO - black << Turn request was legal
+2019-12-09 16:18:09,244 - server - INFO - red << Your tiles are: [23, 24]
+2019-12-09 16:18:09,245 - server - INFO - red >> Turn: [23, 0, 'h2']
+2019-12-09 16:18:09,246 - server - INFO - red << Turn request was legal
+2019-12-09 16:18:10,250 - server - INFO - white << Your tiles are: [25, 26]
+2019-12-09 16:18:10,250 - server - INFO - white >> Turn: [25, 0, 'c4']
+2019-12-09 16:18:10,251 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:11,257 - server - INFO - black << Your tiles are: [27, 28]
+2019-12-09 16:18:11,257 - server - INFO - black >> Turn: [27, 0, 'b1']
+2019-12-09 16:18:11,259 - server - INFO - black << Turn request was legal
+2019-12-09 16:18:26,793 - server - INFO - red << Your tiles are: [29, 30]
+2019-12-09 16:18:26,793 - server - INFO - red >> Turn: [29, 0, 'h3']
+2019-12-09 16:18:26,794 - server - INFO - red << Turn request was legal
+2019-12-09 16:18:27,799 - server - INFO - white << Your tiles are: [31, 32]
+2019-12-09 16:18:27,800 - server - INFO - white >> Turn: [31, 0, 'd3']
+2019-12-09 16:18:27,801 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:28,803 - server - INFO - black << Your tiles are: [33, 34]
+2019-12-09 16:18:28,803 - server - INFO - black >> Turn: [33, 0, 'd2']
+2019-12-09 16:18:28,804 - server - INFO - black << Turn request was legal
+2019-12-09 16:18:47,833 - server - INFO - red << Your tiles are: [0, 1]
+2019-12-09 16:18:47,833 - server - INFO - red >> Turn: [0, 0, 'h6']
+2019-12-09 16:18:47,834 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-09 16:18:47,834 - server - INFO - red << ['tile placement is not in front of given player']
+2019-12-09 16:18:49,845 - server - INFO - white << Your tiles are: [2, 3]
+2019-12-09 16:18:49,846 - server - INFO - white >> Turn: [2, 0, 'e3']
+2019-12-09 16:18:49,847 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:50,848 - server - INFO - white << Your tiles are: [4, 5]
+2019-12-09 16:18:50,849 - server - INFO - white >> Turn: [4, 0, 'f3']
+2019-12-09 16:18:50,849 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:51,853 - server - INFO - white << Your tiles are: [6, 7]
+2019-12-09 16:18:51,854 - server - INFO - white >> Turn: [6, 0, 'f4']
+2019-12-09 16:18:51,855 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:52,859 - server - INFO - white << Your tiles are: [8, 9]
+2019-12-09 16:18:52,860 - server - INFO - white >> Turn: [8, 0, 'f5']
+2019-12-09 16:18:52,861 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:53,867 - server - INFO - white << Your tiles are: [10, 11]
+2019-12-09 16:18:53,867 - server - INFO - white >> Turn: [10, 0, 'f6']
+2019-12-09 16:18:53,869 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:54,874 - server - INFO - white << Your tiles are: [12, 13]
+2019-12-09 16:18:54,875 - server - INFO - white >> Turn: [12, 0, 'g6']
+2019-12-09 16:18:54,876 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:55,882 - server - INFO - white << Your tiles are: [14, 15]
+2019-12-09 16:18:55,883 - server - INFO - white >> Turn: [14, 0, 'g7']
+2019-12-09 16:18:55,883 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:56,888 - server - INFO - white << Your tiles are: [16, 17]
+2019-12-09 16:18:56,888 - server - INFO - white >> Turn: [16, 0, 'f7']
+2019-12-09 16:18:56,889 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:57,891 - server - INFO - white << Your tiles are: [18, 19]
+2019-12-09 16:18:57,891 - server - INFO - white >> Turn: [18, 0, 'e7']
+2019-12-09 16:18:57,893 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:58,895 - server - INFO - white << Your tiles are: [20, 21]
+2019-12-09 16:18:58,895 - server - INFO - white >> Turn: [20, 0, 'e6']
+2019-12-09 16:18:58,896 - server - INFO - white << Turn request was legal
+2019-12-09 16:18:59,900 - server - INFO - white << Your tiles are: [22, 23]
+2019-12-09 16:18:59,900 - server - INFO - white >> Turn: [22, 0, 'd6']
+2019-12-09 16:18:59,902 - server - INFO - white << Turn request was legal
+2019-12-09 16:19:00,904 - server - INFO - white << Your tiles are: [24, 25]
+2019-12-09 16:19:00,904 - server - INFO - white >> Turn: [24, 0, 'c6']
+2019-12-09 16:19:00,905 - server - INFO - white << Turn request was legal
+2019-12-09 16:19:01,908 - server - INFO - white << Your tiles are: [26, 27]
+2019-12-09 16:19:01,909 - server - INFO - white >> Turn: [26, 0, 'c7']
+2019-12-09 16:19:01,909 - server - INFO - white << Turn request was legal
+2019-12-09 16:19:02,915 - server - INFO - white << Your tiles are: [28, 29]
+2019-12-09 16:19:02,916 - server - INFO - white >> Turn: [28, 0, 'b6']
+2019-12-09 16:19:02,917 - server - INFO - white << Turn request was legal
+2019-12-09 16:19:03,918 - server - INFO - white << Your tiles are: [30, 31]
+2019-12-09 16:19:03,919 - server - INFO - white >> Turn: [30, 0, 'a6']
+2019-12-09 16:19:03,920 - server - INFO - white << Turn request was legal
+2019-12-09 16:19:04,924 - server - INFO - white << Your tiles are: [32, 33]
+2019-12-09 16:19:04,925 - server - INFO - white >> Turn: [32, 0, 'a7']
+2019-12-09 16:19:04,926 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-09 16:19:04,926 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-09 16:19:05,931 - server - INFO - The game has now finished.
+2019-12-10 15:12:34,661 - server - INFO - Added Jack to the game.
+2019-12-10 15:12:34,663 - server - INFO - The players in the game are ['Jack']
+2019-12-10 15:12:34,663 - server - INFO - Initial moves have finished.
+2019-12-10 15:14:45,475 - server - INFO - Added Jack to the game.
+2019-12-10 15:14:45,475 - server - INFO - The players in the game are ['Jack']
+2019-12-10 15:14:45,476 - server - INFO - Initial moves have finished.
+2019-12-10 15:15:38,962 - server - INFO - Added Jack to the game.
+2019-12-10 15:15:42,646 - server - INFO - Added Colin to the game.
+2019-12-10 15:15:44,547 - server - INFO - Added Coleen to the game.
+2019-12-10 15:15:50,555 - server - INFO - The players in the game are ['Jack', 'Colin', 'Coleen']
+2019-12-10 15:15:51,559 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-10 15:15:51,559 - server - INFO - white >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-12-10 15:15:51,560 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:15:51,561 - server - INFO - white << Turn request was legal
+2019-12-10 15:15:52,563 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-10 15:15:52,563 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-12-10 15:15:52,565 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:15:52,565 - server - INFO - black << Turn request was legal
+2019-12-10 15:15:53,568 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-10 15:15:53,569 - server - INFO - red >> turn: {'name': 'Coleen', 'strategy': 'dumb'}
+2019-12-10 15:15:53,572 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:15:53,572 - server - INFO - red << Turn request was legal
+2019-12-10 15:15:53,572 - server - INFO - Initial moves have finished.
+2019-12-10 15:15:54,573 - server - INFO - black << Your tiles are: [9, 10]
+2019-12-10 15:15:54,574 - server - INFO - black >> Turn: [9, 0, 'c2']
+2019-12-10 15:15:54,575 - server - INFO - black << Turn request was legal
+2019-12-10 15:15:55,579 - server - INFO - red << Your tiles are: [11, 12]
+2019-12-10 15:15:55,580 - server - INFO - red >> Turn: [11, 0, 'f1']
+2019-12-10 15:15:55,581 - server - INFO - red << Turn request was legal
+2019-12-10 15:15:56,585 - server - INFO - white << Your tiles are: [13, 14]
+2019-12-10 15:15:56,585 - server - INFO - white >> Turn: [13, 0, 'a2']
+2019-12-10 15:15:56,587 - server - INFO - white << Turn request was legal
+2019-12-10 15:15:57,589 - server - INFO - black << Your tiles are: [15, 16]
+2019-12-10 15:15:57,590 - server - INFO - black >> Turn: [15, 0, 'c3']
+2019-12-10 15:15:57,591 - server - INFO - black << Turn request was legal
+2019-12-10 15:15:58,596 - server - INFO - red << Your tiles are: [17, 18]
+2019-12-10 15:15:58,597 - server - INFO - red >> Turn: [17, 0, 'f2']
+2019-12-10 15:15:58,598 - server - INFO - red << Turn request was legal
+2019-12-10 15:15:59,602 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-10 15:15:59,602 - server - INFO - white >> Turn: [19, 0, 'b2']
+2019-12-10 15:15:59,605 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:00,609 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-10 15:16:00,610 - server - INFO - black >> Turn: [21, 0, 'b3']
+2019-12-10 15:16:00,611 - server - INFO - black << Turn request was legal
+2019-12-10 15:16:01,615 - server - INFO - red << Your tiles are: [23, 24]
+2019-12-10 15:16:01,615 - server - INFO - red >> Turn: [23, 0, 'g2']
+2019-12-10 15:16:01,616 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:02,620 - server - INFO - white << Your tiles are: [25, 26]
+2019-12-10 15:16:02,621 - server - INFO - white >> Turn: [25, 0, 'c4']
+2019-12-10 15:16:02,622 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:03,626 - server - INFO - black << Your tiles are: [27, 28]
+2019-12-10 15:16:03,627 - server - INFO - black >> Turn: [27, 0, 'b1']
+2019-12-10 15:16:03,628 - server - INFO - black << Turn request was legal
+2019-12-10 15:16:04,633 - server - INFO - red << Your tiles are: [29, 30]
+2019-12-10 15:16:04,634 - server - INFO - red >> Turn: [29, 0, 'h2']
+2019-12-10 15:16:04,635 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:05,637 - server - INFO - white << Your tiles are: [31, 32]
+2019-12-10 15:16:05,637 - server - INFO - white >> Turn: [31, 0, 'd3']
+2019-12-10 15:16:05,638 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:06,640 - server - INFO - black << Your tiles are: [33, 34]
+2019-12-10 15:16:06,641 - server - INFO - black >> Turn: [33, 0, 'd2']
+2019-12-10 15:16:06,642 - server - INFO - black << Turn request was legal
+2019-12-10 15:16:07,647 - server - INFO - red << Your tiles are: [0, 1]
+2019-12-10 15:16:07,648 - server - INFO - red >> Turn: [0, 0, 'h3']
+2019-12-10 15:16:07,649 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:08,653 - server - INFO - white << Your tiles are: [2, 3]
+2019-12-10 15:16:08,654 - server - INFO - white >> Turn: [2, 0, 'e3']
+2019-12-10 15:16:08,655 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:09,659 - server - INFO - red << Your tiles are: [4, 5]
+2019-12-10 15:16:09,660 - server - INFO - red >> Turn: [4, 0, 'h4']
+2019-12-10 15:16:09,661 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:10,667 - server - INFO - white << Your tiles are: [6, 7]
+2019-12-10 15:16:10,668 - server - INFO - white >> Turn: [6, 0, 'f3']
+2019-12-10 15:16:10,669 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:11,674 - server - INFO - red << Your tiles are: [8, 9]
+2019-12-10 15:16:11,675 - server - INFO - red >> Turn: [8, 0, 'g4']
+2019-12-10 15:16:11,676 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:12,680 - server - INFO - white << Your tiles are: [10, 11]
+2019-12-10 15:16:12,681 - server - INFO - white >> Turn: [10, 0, 'g3']
+2019-12-10 15:16:12,682 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:13,687 - server - INFO - red << Your tiles are: [12, 13]
+2019-12-10 15:16:13,687 - server - INFO - red >> Turn: [12, 0, 'f4']
+2019-12-10 15:16:13,688 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:14,693 - server - INFO - white << Your tiles are: [14, 15]
+2019-12-10 15:16:14,694 - server - INFO - white >> Turn: [14, 0, 'i3']
+2019-12-10 15:16:14,695 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:15,697 - server - INFO - red << Your tiles are: [16, 17]
+2019-12-10 15:16:15,697 - server - INFO - red >> Turn: [16, 0, 'f5']
+2019-12-10 15:16:15,698 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:16,702 - server - INFO - white << Your tiles are: [18, 19]
+2019-12-10 15:16:16,702 - server - INFO - white >> Turn: [18, 0, 'i4']
+2019-12-10 15:16:16,704 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:17,710 - server - INFO - red << Your tiles are: [20, 21]
+2019-12-10 15:16:17,710 - server - INFO - red >> Turn: [20, 0, 'g5']
+2019-12-10 15:16:17,711 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:18,715 - server - INFO - white << Your tiles are: [22, 23]
+2019-12-10 15:16:18,716 - server - INFO - white >> Turn: [22, 0, 'i5']
+2019-12-10 15:16:18,717 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:19,719 - server - INFO - red << Your tiles are: [24, 25]
+2019-12-10 15:16:19,719 - server - INFO - red >> Turn: [24, 0, 'g6']
+2019-12-10 15:16:19,721 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:20,725 - server - INFO - white << Your tiles are: [26, 27]
+2019-12-10 15:16:20,725 - server - INFO - white >> Turn: [26, 0, 'h5']
+2019-12-10 15:16:20,726 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:21,730 - server - INFO - red << Your tiles are: [28, 29]
+2019-12-10 15:16:21,731 - server - INFO - red >> Turn: [28, 0, 'e5']
+2019-12-10 15:16:21,732 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:22,737 - server - INFO - white << Your tiles are: [30, 31]
+2019-12-10 15:16:22,737 - server - INFO - white >> Turn: [30, 0, 'e2']
+2019-12-10 15:16:22,739 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:23,742 - server - INFO - red << Your tiles are: [32, 33]
+2019-12-10 15:16:23,743 - server - INFO - red >> Turn: [32, 0, 'e6']
+2019-12-10 15:16:23,744 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:24,749 - server - INFO - white << Your tiles are: [34, 0]
+2019-12-10 15:16:24,750 - server - INFO - white >> Turn: [34, 0, 'e4']
+2019-12-10 15:16:24,751 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:25,754 - server - INFO - red << Your tiles are: [1, 2]
+2019-12-10 15:16:25,754 - server - INFO - red >> Turn: [1, 0, 'd5']
+2019-12-10 15:16:25,755 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:26,760 - server - INFO - white << Your tiles are: [3, 4]
+2019-12-10 15:16:26,760 - server - INFO - white >> Turn: [3, 0, 'h6']
+2019-12-10 15:16:26,762 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:27,764 - server - INFO - red << Your tiles are: [5, 6]
+2019-12-10 15:16:27,764 - server - INFO - red >> Turn: [5, 0, 'c5']
+2019-12-10 15:16:27,765 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:28,769 - server - INFO - white << Your tiles are: [7, 8]
+2019-12-10 15:16:28,769 - server - INFO - white >> Turn: [7, 0, 'i6']
+2019-12-10 15:16:28,771 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:29,774 - server - INFO - red << Your tiles are: [9, 10]
+2019-12-10 15:16:29,775 - server - INFO - red >> Turn: [9, 0, 'c6']
+2019-12-10 15:16:29,776 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:30,781 - server - INFO - white << Your tiles are: [11, 12]
+2019-12-10 15:16:30,781 - server - INFO - white >> Turn: [11, 0, 'j6']
+2019-12-10 15:16:30,782 - server - INFO - white << Turn request was legal
+2019-12-10 15:16:31,787 - server - INFO - red << Your tiles are: [13, 14]
+2019-12-10 15:16:31,787 - server - INFO - red >> Turn: [13, 0, 'c7']
+2019-12-10 15:16:31,788 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:32,791 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-10 15:16:32,792 - server - INFO - white >> Turn: [15, 0, 'j7']
+2019-12-10 15:16:32,792 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-10 15:16:32,792 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-10 15:16:34,797 - server - INFO - red << Your tiles are: [17, 18]
+2019-12-10 15:16:34,798 - server - INFO - red >> Turn: [17, 0, 'b7']
+2019-12-10 15:16:34,798 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:35,804 - server - INFO - red << Your tiles are: [19, 20]
+2019-12-10 15:16:35,804 - server - INFO - red >> Turn: [19, 0, 'b6']
+2019-12-10 15:16:35,806 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:36,811 - server - INFO - red << Your tiles are: [21, 22]
+2019-12-10 15:16:36,812 - server - INFO - red >> Turn: [21, 0, 'a6']
+2019-12-10 15:16:36,814 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:37,819 - server - INFO - red << Your tiles are: [23, 24]
+2019-12-10 15:16:37,820 - server - INFO - red >> Turn: [23, 0, 'a5']
+2019-12-10 15:16:37,821 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:38,825 - server - INFO - red << Your tiles are: [25, 26]
+2019-12-10 15:16:38,826 - server - INFO - red >> Turn: [25, 0, 'b5']
+2019-12-10 15:16:38,827 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:39,828 - server - INFO - red << Your tiles are: [27, 28]
+2019-12-10 15:16:39,828 - server - INFO - red >> Turn: [27, 0, 'f6']
+2019-12-10 15:16:39,829 - server - INFO - red << Turn request was legal
+2019-12-10 15:16:40,835 - server - INFO - red << Your tiles are: [29, 30]
+2019-12-10 15:16:40,836 - server - INFO - red >> Turn: [29, 0, 'd1']
+2019-12-10 15:16:40,837 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-10 15:16:40,838 - server - INFO - red << ['tile placement is avoidable suicide']
+2019-12-10 15:16:41,839 - server - INFO - The game has now finished.
+2019-12-10 15:28:46,770 - server - INFO - Added Jack to the game.
+2019-12-10 15:28:48,571 - server - INFO - Added Colin to the game.
+2019-12-10 15:28:50,266 - server - INFO - Added Coleen to the game.
+2019-12-10 15:28:56,272 - server - INFO - The players in the game are ['Jack', 'Colin', 'Coleen']
+2019-12-10 15:28:57,276 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-10 15:28:57,277 - server - INFO - white >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-12-10 15:28:57,278 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:28:57,278 - server - INFO - white << Turn request was legal
+2019-12-10 15:28:58,279 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-10 15:28:58,279 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-12-10 15:28:58,281 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:28:58,281 - server - INFO - black << Turn request was legal
+2019-12-10 15:28:59,283 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-10 15:28:59,284 - server - INFO - red >> turn: {'name': 'Coleen', 'strategy': 'dumb'}
+2019-12-10 15:28:59,287 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:28:59,287 - server - INFO - red << Turn request was legal
+2019-12-10 15:28:59,287 - server - INFO - Initial moves have finished.
+2019-12-10 15:29:00,292 - server - INFO - black << Your tiles are: [9, 10]
+2019-12-10 15:29:00,293 - server - INFO - black >> Turn: [9, 0, 'c2']
+2019-12-10 15:29:00,294 - server - INFO - black << Turn request was legal
+2019-12-10 15:29:45,999 - server - INFO - Added Jack to the game.
+2019-12-10 15:29:47,605 - server - INFO - Added Colin to the game.
+2019-12-10 15:29:49,278 - server - INFO - Added Coleen to the game.
+2019-12-10 15:29:55,286 - server - INFO - The players in the game are ['Jack', 'Colin', 'Coleen']
+2019-12-10 15:29:56,291 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-10 15:29:56,291 - server - INFO - white >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-12-10 15:29:56,292 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:29:56,292 - server - INFO - white << Turn request was legal
+2019-12-10 15:29:57,298 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-10 15:29:57,298 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-12-10 15:29:57,300 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:29:57,300 - server - INFO - black << Turn request was legal
+2019-12-10 15:29:58,304 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-10 15:29:58,304 - server - INFO - red >> turn: {'name': 'Coleen', 'strategy': 'dumb'}
+2019-12-10 15:29:58,307 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:29:58,307 - server - INFO - red << Turn request was legal
+2019-12-10 15:29:58,307 - server - INFO - Initial moves have finished.
+2019-12-10 15:29:59,313 - server - INFO - red << Your tiles are: [9, 10]
+2019-12-10 15:29:59,313 - server - INFO - red >> Turn: [9, 0, 'f1']
+2019-12-10 15:29:59,315 - server - INFO - red << Turn request was legal
+2019-12-10 15:30:00,318 - server - INFO - black << Your tiles are: [11, 12]
+2019-12-10 15:30:00,319 - server - INFO - black >> Turn: [11, 0, 'c2']
+2019-12-10 15:30:00,320 - server - INFO - black << Turn request was legal
+2019-12-10 15:30:01,322 - server - INFO - white << Your tiles are: [13, 14]
+2019-12-10 15:30:01,323 - server - INFO - white >> Turn: [13, 0, 'a2']
+2019-12-10 15:30:01,324 - server - INFO - white << Turn request was legal
+2019-12-10 15:30:02,329 - server - INFO - red << Your tiles are: [15, 16]
+2019-12-10 15:30:02,329 - server - INFO - red >> Turn: [15, 0, 'f2']
+2019-12-10 15:30:02,330 - server - INFO - red << Turn request was legal
+2019-12-10 15:30:03,334 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-10 15:30:03,335 - server - INFO - black >> Turn: [17, 0, 'd2']
+2019-12-10 15:30:03,336 - server - INFO - black << Turn request was legal
+2019-12-10 15:30:04,337 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-10 15:30:04,338 - server - INFO - white >> Turn: [19, 0, 'b2']
+2019-12-10 15:30:04,339 - server - INFO - white << Turn request was legal
+2019-12-10 15:30:05,343 - server - INFO - red << Your tiles are: [21, 22]
+2019-12-10 15:30:05,343 - server - INFO - red >> Turn: [21, 0, 'g2']
+2019-12-10 15:30:05,344 - server - INFO - red << Turn request was legal
+2019-12-10 15:30:06,348 - server - INFO - black << Your tiles are: [23, 24]
+2019-12-10 15:30:06,348 - server - INFO - black >> Turn: [23, 0, 'd3']
+2019-12-10 15:30:06,349 - server - INFO - black << Turn request was legal
+2019-12-10 15:30:07,352 - server - INFO - white << Your tiles are: [25, 26]
+2019-12-10 15:30:07,352 - server - INFO - white >> Turn: [25, 0, 'b3']
+2019-12-10 15:30:07,353 - server - INFO - white << Turn request was legal
+2019-12-10 15:30:08,355 - server - INFO - red << Your tiles are: [27, 28]
+2019-12-10 15:30:08,355 - server - INFO - red >> Turn: [27, 0, 'g3']
+2019-12-10 15:30:08,356 - server - INFO - red << Turn request was legal
+2019-12-10 15:30:09,359 - server - INFO - black << Your tiles are: [29, 30]
+2019-12-10 15:30:09,360 - server - INFO - black >> Turn: [29, 0, 'd1']
+2019-12-10 15:30:09,360 - server - INFO - black << You're kicked out from performing an illegal move
+2019-12-10 15:30:09,361 - server - INFO - black << ['tile placement is avoidable suicide']
+2019-12-10 15:30:11,365 - server - INFO - white << Your tiles are: [31, 32]
+2019-12-10 15:30:11,366 - server - INFO - white >> Turn: [31, 0, 'b1']
+2019-12-10 15:30:11,367 - server - INFO - white << Turn request was legal
+2019-12-10 15:30:12,371 - server - INFO - red << Your tiles are: [33, 34]
+2019-12-10 15:30:12,371 - server - INFO - red >> Turn: [33, 0, 'f3']
+2019-12-10 15:30:12,372 - server - INFO - red << Turn request was legal
+2019-12-10 15:30:13,377 - server - INFO - white << Your tiles are: [0, 1]
+2019-12-10 15:30:13,378 - server - INFO - white >> Turn: [0, 0, 'd1']
+2019-12-10 15:30:13,379 - server - INFO - white << Turn request was legal
+2019-12-10 15:30:14,382 - server - INFO - red << Your tiles are: [2, 3]
+2019-12-10 15:30:14,382 - server - INFO - red >> Turn: [2, 0, 'e2']
+2019-12-10 15:30:14,384 - server - INFO - red << Turn request was legal
+2019-12-10 15:30:58,399 - server - INFO - Added Jack to the game.
+2019-12-10 15:31:01,126 - server - INFO - Added Colin to the game.
+2019-12-10 15:31:03,069 - server - INFO - Added Coleen to the game.
+2019-12-10 15:31:09,073 - server - INFO - The players in the game are ['Jack', 'Colin', 'Coleen']
+2019-12-10 15:31:10,079 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-10 15:31:10,079 - server - INFO - white >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-12-10 15:31:10,080 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:31:10,080 - server - INFO - white << Turn request was legal
+2019-12-10 15:31:11,084 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-10 15:31:11,085 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-12-10 15:31:11,086 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:31:11,087 - server - INFO - black << Turn request was legal
+2019-12-10 15:31:12,089 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-10 15:31:12,090 - server - INFO - red >> turn: {'name': 'Coleen', 'strategy': 'dumb'}
+2019-12-10 15:31:12,093 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-10 15:31:12,093 - server - INFO - red << Turn request was legal
+2019-12-10 15:31:12,094 - server - INFO - Initial moves have finished.
+2019-12-10 15:31:13,096 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-10 15:31:13,097 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-10 15:31:13,098 - server - INFO - white << Turn request was legal
+2019-12-10 15:31:14,101 - server - INFO - red << Your tiles are: [11, 12]
+2019-12-10 15:31:14,102 - server - INFO - red >> Turn: [11, 0, 'f1']
+2019-12-10 15:31:14,103 - server - INFO - red << Turn request was legal
+2019-12-10 15:31:15,108 - server - INFO - black << Your tiles are: [13, 14]
+2019-12-10 15:31:15,109 - server - INFO - black >> Turn: [13, 0, 'c2']
+2019-12-10 15:31:15,110 - server - INFO - black << Turn request was legal
+2019-12-10 15:31:16,114 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-10 15:31:16,114 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-10 15:31:16,115 - server - INFO - white << Turn request was legal
+2019-12-10 15:31:17,118 - server - INFO - red << Your tiles are: [17, 18]
+2019-12-10 15:31:17,119 - server - INFO - red >> Turn: [17, 0, 'f2']
+2019-12-10 15:31:17,120 - server - INFO - red << Turn request was legal
+2019-12-10 15:31:18,121 - server - INFO - black << Your tiles are: [19, 20]
+2019-12-10 15:31:18,121 - server - INFO - black >> Turn: [19, 0, 'b1']
+2019-12-10 15:31:18,121 - server - INFO - black << You're kicked out from performing an illegal move
+2019-12-10 15:31:18,122 - server - INFO - black << ['tile placement is avoidable suicide']
+2019-12-10 15:31:20,129 - server - INFO - white << Your tiles are: [21, 22]
+2019-12-10 15:31:20,129 - server - INFO - white >> Turn: [21, 0, 'b1']
+2019-12-10 15:31:20,130 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-10 15:31:20,130 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-10 15:31:22,137 - server - INFO - red << Your tiles are: [23, 24]
+2019-12-10 15:31:22,138 - server - INFO - red >> Turn: [23, 0, 'g2']
+2019-12-10 15:31:22,139 - server - INFO - red << Turn request was legal
+2019-12-10 15:31:22,139 - server - INFO - The game has now finished.
+2019-12-11 11:58:46,615 - server - INFO - Added Jack to the game.
+2019-12-11 11:58:49,544 - server - INFO - Added Colin to the game.
+2019-12-11 11:58:55,187 - server - INFO - Added Coleen to the game.
+2019-12-11 11:59:01,193 - server - INFO - The players in the game are ['Jack', 'Colin', 'Coleen']
+2019-12-11 11:59:02,199 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 11:59:02,199 - server - INFO - white >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-12-11 11:59:02,200 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 11:59:43,695 - server - INFO - Added Jack to the game.
+2019-12-11 11:59:43,695 - server - INFO - Added Jack to the game.
+2019-12-11 11:59:45,485 - server - INFO - Added Colin to the game.
+2019-12-11 11:59:45,485 - server - INFO - Added Colin to the game.
+2019-12-11 11:59:47,541 - server - INFO - Added Coleen to the game.
+2019-12-11 11:59:47,541 - server - INFO - Added Coleen to the game.
+2019-12-11 11:59:53,548 - server - INFO - The players in the game are ['Jack', 'Colin', 'Coleen']
+2019-12-11 11:59:53,548 - server - INFO - The players in the game are ['Jack', 'Colin', 'Coleen']
+2019-12-11 11:59:54,553 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 11:59:54,553 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 11:59:54,553 - server - INFO - white >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-12-11 11:59:54,553 - server - INFO - white >> turn: {'name': 'Jack', 'strategy': 'dumb'}
+2019-12-11 11:59:54,554 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 11:59:54,554 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 11:59:54,555 - server - INFO - white << Turn request was legal
+2019-12-11 11:59:54,555 - server - INFO - white << Turn request was legal
+2019-12-11 11:59:55,560 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 11:59:55,560 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 11:59:55,560 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-12-11 11:59:55,560 - server - INFO - black >> turn: {'name': 'Colin', 'strategy': 'dumb'}
+2019-12-11 11:59:55,562 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 11:59:55,562 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 11:59:55,562 - server - INFO - black << Turn request was legal
+2019-12-11 11:59:55,562 - server - INFO - black << Turn request was legal
+2019-12-11 11:59:56,564 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 11:59:56,564 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 11:59:56,565 - server - INFO - red >> turn: {'name': 'Coleen', 'strategy': 'human'}
+2019-12-11 11:59:56,565 - server - INFO - red >> turn: {'name': 'Coleen', 'strategy': 'human'}
+2019-12-11 12:00:12,648 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 12:00:12,648 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 12:00:12,649 - server - INFO - red << Turn request was legal
+2019-12-11 12:00:12,649 - server - INFO - red << Turn request was legal
+2019-12-11 12:00:12,649 - server - INFO - Initial moves have finished.
+2019-12-11 12:00:12,649 - server - INFO - Initial moves have finished.
+2019-12-11 12:00:13,652 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-11 12:00:13,652 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-11 12:00:13,652 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-11 12:00:13,652 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-11 12:00:13,653 - server - INFO - white << Turn request was legal
+2019-12-11 12:00:13,653 - server - INFO - white << Turn request was legal
+2019-12-11 12:00:14,656 - server - INFO - black << Your tiles are: [11, 12]
+2019-12-11 12:00:14,656 - server - INFO - black << Your tiles are: [11, 12]
+2019-12-11 12:00:14,656 - server - INFO - black >> Turn: [11, 0, 'c2']
+2019-12-11 12:00:14,656 - server - INFO - black >> Turn: [11, 0, 'c2']
+2019-12-11 12:00:14,657 - server - INFO - black << Turn request was legal
+2019-12-11 12:00:14,657 - server - INFO - black << Turn request was legal
+2019-12-11 12:00:29,987 - server - INFO - red << Your tiles are: [13, 14]
+2019-12-11 12:00:29,987 - server - INFO - red << Your tiles are: [13, 14]
+2019-12-11 12:00:29,987 - server - INFO - red >> Turn: [13, 180, 'f4']
+2019-12-11 12:00:29,987 - server - INFO - red >> Turn: [13, 180, 'f4']
+2019-12-11 12:00:29,988 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-11 12:00:29,988 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-11 12:00:29,988 - server - INFO - red << ['tile placement is not in front of given player']
+2019-12-11 12:00:29,988 - server - INFO - red << ['tile placement is not in front of given player']
+2019-12-11 12:00:31,993 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-11 12:00:31,993 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-11 12:00:31,993 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-11 12:00:31,993 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-11 12:00:31,995 - server - INFO - white << Turn request was legal
+2019-12-11 12:00:31,995 - server - INFO - white << Turn request was legal
+2019-12-11 12:00:32,999 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-11 12:00:32,999 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-11 12:00:33,000 - server - INFO - black >> Turn: [17, 0, 'd2']
+2019-12-11 12:00:33,000 - server - INFO - black >> Turn: [17, 0, 'd2']
+2019-12-11 12:00:33,001 - server - INFO - black << Turn request was legal
+2019-12-11 12:00:33,001 - server - INFO - black << Turn request was legal
+2019-12-11 12:00:34,005 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-11 12:00:34,005 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-11 12:00:34,005 - server - INFO - white >> Turn: [19, 0, 'b1']
+2019-12-11 12:00:34,005 - server - INFO - white >> Turn: [19, 0, 'b1']
+2019-12-11 12:00:34,006 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-11 12:00:34,006 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-11 12:00:34,006 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-11 12:00:34,006 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-11 12:00:36,011 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-11 12:00:36,011 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-11 12:00:36,012 - server - INFO - black >> Turn: [21, 0, 'd3']
+2019-12-11 12:00:36,012 - server - INFO - black >> Turn: [21, 0, 'd3']
+2019-12-11 12:00:36,013 - server - INFO - black << Turn request was legal
+2019-12-11 12:00:36,013 - server - INFO - black << Turn request was legal
+2019-12-11 12:00:36,014 - server - INFO - The game has now finished.
+2019-12-11 12:00:36,014 - server - INFO - The game has now finished.
+2019-12-11 13:38:34,978 - server - INFO - The players in the game are []
+2019-12-11 13:38:34,978 - server - INFO - The players in the game are []
+2019-12-11 13:38:34,979 - server - INFO - Initial moves have finished.
+2019-12-11 13:38:34,979 - server - INFO - Initial moves have finished.
+2019-12-11 15:02:53,955 - server - INFO - Added colin to the game.
+2019-12-11 15:02:53,955 - server - INFO - Added colin to the game.
+2019-12-11 15:03:08,045 - server - INFO - Added coleen to the game.
+2019-12-11 15:03:08,045 - server - INFO - Added coleen to the game.
+2019-12-11 15:03:12,935 - server - INFO - Added jack to the game.
+2019-12-11 15:03:12,935 - server - INFO - Added jack to the game.
+2019-12-11 15:03:18,941 - server - INFO - The players in the game are ['colin', 'coleen', 'jack']
+2019-12-11 15:03:18,941 - server - INFO - The players in the game are ['colin', 'coleen', 'jack']
+2019-12-11 15:03:19,947 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 15:03:19,947 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 15:03:19,948 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-11 15:03:19,948 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-11 15:03:19,948 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 15:03:19,948 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 15:03:19,949 - server - INFO - white << Turn request was legal
+2019-12-11 15:03:19,949 - server - INFO - white << Turn request was legal
+2019-12-11 15:03:20,950 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 15:03:20,950 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 15:03:20,951 - server - INFO - black >> turn: {'name': 'coleen', 'strategy': 'second'}
+2019-12-11 15:03:20,951 - server - INFO - black >> turn: {'name': 'coleen', 'strategy': 'second'}
+2019-12-11 15:03:20,954 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 15:03:20,954 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 15:03:20,954 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:20,954 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:21,956 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 15:03:21,956 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 15:03:21,956 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-11 15:03:21,956 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-11 15:03:33,947 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 15:03:33,947 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 15:03:33,947 - server - INFO - red << Turn request was legal
+2019-12-11 15:03:33,947 - server - INFO - red << Turn request was legal
+2019-12-11 15:03:33,948 - server - INFO - Initial moves have finished.
+2019-12-11 15:03:33,948 - server - INFO - Initial moves have finished.
+2019-12-11 15:03:42,766 - server - INFO - red << Your tiles are: [9, 10]
+2019-12-11 15:03:42,766 - server - INFO - red << Your tiles are: [9, 10]
+2019-12-11 15:03:42,767 - server - INFO - red >> Turn: [9, 180, 'f7']
+2019-12-11 15:03:42,767 - server - INFO - red >> Turn: [9, 180, 'f7']
+2019-12-11 15:03:42,768 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-11 15:03:42,768 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-11 15:03:42,768 - server - INFO - red << ['tile placement is not in front of given player']
+2019-12-11 15:03:42,768 - server - INFO - red << ['tile placement is not in front of given player']
+2019-12-11 15:03:44,775 - server - INFO - white << Your tiles are: [11, 12]
+2019-12-11 15:03:44,775 - server - INFO - white << Your tiles are: [11, 12]
+2019-12-11 15:03:44,777 - server - INFO - white >> Turn: [11, 0, 'a2']
+2019-12-11 15:03:44,777 - server - INFO - white >> Turn: [11, 0, 'a2']
+2019-12-11 15:03:44,778 - server - INFO - white << Turn request was legal
+2019-12-11 15:03:44,778 - server - INFO - white << Turn request was legal
+2019-12-11 15:03:45,782 - server - INFO - black << Your tiles are: [13, 14]
+2019-12-11 15:03:45,782 - server - INFO - black << Your tiles are: [13, 14]
+2019-12-11 15:03:45,782 - server - INFO - black >> Turn: [14, 0, 'b3']
+2019-12-11 15:03:45,782 - server - INFO - black >> Turn: [14, 0, 'b3']
+2019-12-11 15:03:45,783 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:45,783 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:46,783 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-11 15:03:46,783 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-11 15:03:46,784 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-11 15:03:46,784 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-11 15:03:46,785 - server - INFO - white << Turn request was legal
+2019-12-11 15:03:46,785 - server - INFO - white << Turn request was legal
+2019-12-11 15:03:47,787 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-11 15:03:47,787 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-11 15:03:47,787 - server - INFO - black >> Turn: [18, 0, 'c2']
+2019-12-11 15:03:47,787 - server - INFO - black >> Turn: [18, 0, 'c2']
+2019-12-11 15:03:47,788 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:47,788 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:48,791 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-11 15:03:48,791 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-11 15:03:48,792 - server - INFO - white >> Turn: [19, 0, 'b1']
+2019-12-11 15:03:48,792 - server - INFO - white >> Turn: [19, 0, 'b1']
+2019-12-11 15:03:48,792 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-11 15:03:48,792 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-11 15:03:48,792 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-11 15:03:48,792 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-11 15:03:50,796 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-11 15:03:50,796 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-11 15:03:50,796 - server - INFO - black >> Turn: [22, 0, 'c3']
+2019-12-11 15:03:50,796 - server - INFO - black >> Turn: [22, 0, 'c3']
+2019-12-11 15:03:50,797 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:50,797 - server - INFO - black << Turn request was legal
+2019-12-11 15:03:50,797 - server - INFO - The game has now finished.
+2019-12-11 15:03:50,797 - server - INFO - The game has now finished.
+2019-12-11 16:16:59,955 - server - INFO - Added colin to the game.
+2019-12-11 16:16:59,955 - server - INFO - Added colin to the game.
+2019-12-11 16:17:01,549 - server - INFO - Added coleen to the game.
+2019-12-11 16:17:01,549 - server - INFO - Added coleen to the game.
+2019-12-11 16:17:03,415 - server - INFO - Added jack to the game.
+2019-12-11 16:17:03,415 - server - INFO - Added jack to the game.
+2019-12-11 16:17:09,421 - server - INFO - The players in the game are ['colin', 'coleen', 'jack']
+2019-12-11 16:17:09,421 - server - INFO - The players in the game are ['colin', 'coleen', 'jack']
+2019-12-11 16:17:10,425 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 16:17:10,425 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 16:17:10,426 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-11 16:17:10,426 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-11 16:17:10,427 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:17:10,427 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:17:10,428 - server - INFO - white << Turn request was legal
+2019-12-11 16:17:10,428 - server - INFO - white << Turn request was legal
+2019-12-11 16:17:11,431 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 16:17:11,431 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 16:17:11,432 - server - INFO - black >> turn: {'name': 'coleen', 'strategy': 'second'}
+2019-12-11 16:17:11,432 - server - INFO - black >> turn: {'name': 'coleen', 'strategy': 'second'}
+2019-12-11 16:17:11,434 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:17:11,434 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:17:11,434 - server - INFO - black << Turn request was legal
+2019-12-11 16:17:11,434 - server - INFO - black << Turn request was legal
+2019-12-11 16:17:12,441 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 16:17:12,441 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 16:17:12,442 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-11 16:17:12,442 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-11 16:17:43,359 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:17:43,359 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:17:43,360 - server - INFO - red << Turn request was legal
+2019-12-11 16:17:43,360 - server - INFO - red << Turn request was legal
+2019-12-11 16:17:43,360 - server - INFO - Initial moves have finished.
+2019-12-11 16:17:43,360 - server - INFO - Initial moves have finished.
+2019-12-11 16:17:44,363 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-11 16:17:44,363 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-11 16:17:44,363 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-11 16:17:44,363 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-11 16:17:44,364 - server - INFO - white << Turn request was legal
+2019-12-11 16:17:44,364 - server - INFO - white << Turn request was legal
+2019-12-11 16:17:45,368 - server - INFO - black << Your tiles are: [11, 12]
+2019-12-11 16:17:45,368 - server - INFO - black << Your tiles are: [11, 12]
+2019-12-11 16:17:45,368 - server - INFO - black >> Turn: [12, 0, 'b3']
+2019-12-11 16:17:45,368 - server - INFO - black >> Turn: [12, 0, 'b3']
+2019-12-11 16:17:45,370 - server - INFO - black << Turn request was legal
+2019-12-11 16:17:45,370 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:25,263 - server - INFO - Added colin to the game.
+2019-12-11 16:18:25,263 - server - INFO - Added colin to the game.
+2019-12-11 16:18:28,402 - server - INFO - Added coleen to the game.
+2019-12-11 16:18:28,402 - server - INFO - Added coleen to the game.
+2019-12-11 16:18:30,367 - server - INFO - Added jack to the game.
+2019-12-11 16:18:30,367 - server - INFO - Added jack to the game.
+2019-12-11 16:18:36,375 - server - INFO - The players in the game are ['colin', 'coleen', 'jack']
+2019-12-11 16:18:36,375 - server - INFO - The players in the game are ['colin', 'coleen', 'jack']
+2019-12-11 16:18:37,379 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 16:18:37,379 - server - INFO - white << dealt tiles: [0, 1, 2]
+2019-12-11 16:18:37,380 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-11 16:18:37,380 - server - INFO - white >> turn: {'name': 'colin', 'strategy': 'dumb'}
+2019-12-11 16:18:37,381 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:18:37,381 - server - INFO - white << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:18:37,381 - server - INFO - white << Turn request was legal
+2019-12-11 16:18:37,381 - server - INFO - white << Turn request was legal
+2019-12-11 16:18:38,385 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 16:18:38,385 - server - INFO - black << dealt tiles: [3, 4, 5]
+2019-12-11 16:18:38,386 - server - INFO - black >> turn: {'name': 'coleen', 'strategy': 'second'}
+2019-12-11 16:18:38,386 - server - INFO - black >> turn: {'name': 'coleen', 'strategy': 'second'}
+2019-12-11 16:18:38,388 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:18:38,388 - server - INFO - black << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:18:38,388 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:38,388 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:39,390 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 16:18:39,390 - server - INFO - red << dealt tiles: [6, 7, 8]
+2019-12-11 16:18:39,391 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-11 16:18:39,391 - server - INFO - red >> turn: {'name': 'jack', 'strategy': 'human'}
+2019-12-11 16:18:40,806 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:18:40,806 - server - INFO - red << turn response: {'legal': True, 'rules broken': None}
+2019-12-11 16:18:40,806 - server - INFO - red << Turn request was legal
+2019-12-11 16:18:40,806 - server - INFO - red << Turn request was legal
+2019-12-11 16:18:40,807 - server - INFO - Initial moves have finished.
+2019-12-11 16:18:40,807 - server - INFO - Initial moves have finished.
+2019-12-11 16:18:41,813 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-11 16:18:41,813 - server - INFO - white << Your tiles are: [9, 10]
+2019-12-11 16:18:41,813 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-11 16:18:41,813 - server - INFO - white >> Turn: [9, 0, 'a2']
+2019-12-11 16:18:41,814 - server - INFO - white << Turn request was legal
+2019-12-11 16:18:41,814 - server - INFO - white << Turn request was legal
+2019-12-11 16:18:42,821 - server - INFO - black << Your tiles are: [11, 12]
+2019-12-11 16:18:42,821 - server - INFO - black << Your tiles are: [11, 12]
+2019-12-11 16:18:42,821 - server - INFO - black >> Turn: [12, 0, 'b3']
+2019-12-11 16:18:42,821 - server - INFO - black >> Turn: [12, 0, 'b3']
+2019-12-11 16:18:42,822 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:42,822 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:50,985 - server - INFO - red << Your tiles are: [13, 14]
+2019-12-11 16:18:50,985 - server - INFO - red << Your tiles are: [13, 14]
+2019-12-11 16:18:50,986 - server - INFO - red >> Turn: [13, 0, 'f1']
+2019-12-11 16:18:50,986 - server - INFO - red >> Turn: [13, 0, 'f1']
+2019-12-11 16:18:50,988 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-11 16:18:50,988 - server - INFO - red << You're kicked out from performing an illegal move
+2019-12-11 16:18:50,988 - server - INFO - red << ['coordinate is already occupied', 'tile placement is not in front of given player']
+2019-12-11 16:18:50,988 - server - INFO - red << ['coordinate is already occupied', 'tile placement is not in front of given player']
+2019-12-11 16:18:52,996 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-11 16:18:52,996 - server - INFO - white << Your tiles are: [15, 16]
+2019-12-11 16:18:52,996 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-11 16:18:52,996 - server - INFO - white >> Turn: [15, 0, 'b2']
+2019-12-11 16:18:52,998 - server - INFO - white << Turn request was legal
+2019-12-11 16:18:52,998 - server - INFO - white << Turn request was legal
+2019-12-11 16:18:54,005 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-11 16:18:54,005 - server - INFO - black << Your tiles are: [17, 18]
+2019-12-11 16:18:54,006 - server - INFO - black >> Turn: [18, 0, 'b4']
+2019-12-11 16:18:54,006 - server - INFO - black >> Turn: [18, 0, 'b4']
+2019-12-11 16:18:54,008 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:54,008 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:55,013 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-11 16:18:55,013 - server - INFO - white << Your tiles are: [19, 20]
+2019-12-11 16:18:55,013 - server - INFO - white >> Turn: [19, 0, 'b1']
+2019-12-11 16:18:55,013 - server - INFO - white >> Turn: [19, 0, 'b1']
+2019-12-11 16:18:55,014 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-11 16:18:55,014 - server - INFO - white << You're kicked out from performing an illegal move
+2019-12-11 16:18:55,014 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-11 16:18:55,014 - server - INFO - white << ['tile placement is avoidable suicide']
+2019-12-11 16:18:57,021 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-11 16:18:57,021 - server - INFO - black << Your tiles are: [21, 22]
+2019-12-11 16:18:57,021 - server - INFO - black >> Turn: [22, 0, 'b5']
+2019-12-11 16:18:57,021 - server - INFO - black >> Turn: [22, 0, 'b5']
+2019-12-11 16:18:57,023 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:57,023 - server - INFO - black << Turn request was legal
+2019-12-11 16:18:57,024 - server - INFO - The game has now finished.
+2019-12-11 16:18:57,024 - server - INFO - The game has now finished.
